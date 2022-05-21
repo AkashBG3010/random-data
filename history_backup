@@ -1,0 +1,500 @@
+    4  git add .
+    5  git commit -m "Updated to display all employee by json object"
+    6  git push origin employee-payroll-html-uc20
+    7  git checkout master
+    8  git merge employee-payroll-html-uc20
+    9  git push origin master
+   10  git checkout -b employee-payroll-html-uc21
+   11  git status
+   12  git add .
+   13  git commit -m "Updated to display employee by local storage"
+   14  git push origin employee-payroll-html-uc21
+   15  git checkout master
+   16  git merge employee-payroll-html-uc21
+   17  git push origin master
+   18  git status
+   19  git add .
+   20  git commit -m "Modified a small part of code"
+   21  git push origin master
+   22  git init
+   23  git status
+   24  git remote add origin https://github.com/AkashBG3010/PythonPractice.git
+   25  git status
+   26  git add.
+   27  git add .
+   28  git commit -m "Added some python basic practice programs"
+   29  git push origin master
+   30  git push origin master --force
+   31  git status
+   32  git add .
+   33  git commit -m "Added some python basic practice programs"
+   34  git push origin master
+   35  git init
+   36  git remote add origin https://github.com/AkashBG3010/PythonPracticePrograms.git
+   37  git status
+   38  git nano .gitignore
+   39  git touch .gitignore
+   40  touch ,gitignore
+   41  echo .gitignore
+   42  git status
+   43  git checkout -b basic-core-programs
+   44  git checkout master
+   45  git checkout -b master
+   46  git add .gitignore
+   47  git commit -m "Added file to be ignored"
+   48  git push origin master
+   49  git checkout basic-core-programs
+   50  git checkout -b basic-core-programs
+   51  git status
+   52  git add .
+   53  git commit -m "Added some python basic core programs" 
+   54  git push origin basic-core-programs
+   55  git checkout master
+   56  git merge basic-core-programs
+   57  git push origin master
+   58  git branch
+   59  git branch -a
+   60  git remote
+   61  git status
+   62  git add .gitignore
+   63  git commit -m "Added files to be excluded"
+   64  git push origin master
+   65  git add .
+   66  git commit -m "Added some more practice programs"
+   67  git push origin master
+   68  git status
+   69  git status
+   70  git init
+   71  git remote add origin https://github.com/AkashBG3010/PythonPracticePrograms.git
+   72  git checkout -b basic-core-programs
+   73  git status
+   74  git add BasicPythonPrograms/.gitignore
+   75  git commit -m "Added files to be excluded"
+   76  git push origin basic-core-programs
+   77  git add BasicPythonPrograms/CoinFlip.py
+   78  git commit -m "Added to check coin flip"
+   79  git push origin basic-core-programs
+   80  git add BasicPythonPrograms/HarmonicNumber.py
+   81  git commit -m "Added to check the value of Nth harmonic number"
+   82  git push origin basic-core-programs
+   83  git add BasicPythonPrograms/HelloWorld.py
+   84  git commit -m "Added to replace a strin"
+   85  git push origin basic-core-programs
+   86  git add BasicPythonPrograms/LeapYear.py
+   87  git commit -m "Added to check the entered year is leap year or not"
+   88  git push origin basic-core-programs
+   89  git add BasicPythonPrograms/PowerOfTwo.py
+   90  git commit -m "Added to display the values of Nth power of 2"
+   91  git push origin basic-core-programs
+   92  git add BasicPythonPrograms/PrimeFactor.py
+   93  git commit -m "Added to display the prime factors of number"
+   94  git push origin basic-core-programs
+   95  git checkout master
+   96  git checkout -b master
+   97  git status
+   98  git checkout -b functional-programs
+   99  git add FunctionalPrograms/.gitignore
+  100  git commit -m "Added files to be excluded"
+  101  git push origin functional-programs
+  102  git add FunctionalPrograms/2DArray.py
+  103  git commit -m "Added to display a 2D array"
+  104  git push origin functional-programs
+  105  git add FunctionalPrograms/Distance.py
+  106  git commit -m "Added to find the distance between two points"
+  107  git push origin functional-programs
+  108  git add FunctionalPrograms/Quadratic.py
+  109  git commit -m "Added to find the quadratic equations"
+  110  git push origin functional-programs
+  111  git add FunctionalPrograms/SumOfThreeInt.py
+  112  git commit -m "Added to find the sum of three numbers equal to 0"
+  113  git push origin functional-programs
+  114  git add FunctionalPrograms/WindChill.py
+  115  git commit -m "Added to find the value of wind chill"
+  116  git push origin functional-programs
+  117  git add LogicalPrograms/.gitignore
+  118  git commit -m "Added files to be excluded"
+  119  git push origin logical-programs
+  120  git checkout -b logical-programs
+  121  git push origin logical-programs
+  122  git add LogicalPrograms/CouponNumbers.py
+  123  git commit -m "Added to generate a coupon number and compare it"
+  124  git push origin logical-programs
+  125  git add LogicalPrograms/Gambler.py
+  126  git commit -m "Added a gambler game"
+  127  git push origin logical-programs
+  128  git add LogicalPrograms/StopWatch.py
+  129  git commit -m "Added a stopWatch to count time when started till end"
+  130  git push origin logical-programs
+  131  git checkout master
+  132  git merge basic-core-programs
+  133  git merge functional-programs
+  134  git merge logical-programs
+  135  git push origin master
+  136  git push origin master --force
+  137  git status
+  138  git add .
+  139  git status
+  140  git add .
+  141  git commit -m "Modified with comments to increase readability"
+  142  git push origin master 
+  143  git checkout logical-programs
+  144  git status
+  145  git checkout master
+  146  git status
+  147  git status
+  148  git add LogicalPrograms/CrossGame.py
+  149  git checkout logical-programs
+  150  git commit -m "Modified with comments to increase readability"
+  151  git checkout logical-programs
+  152  git status
+  153  git push origin logical-programs
+  154  git checkout master
+  155  git push origin master 
+  156  git push origin master --force
+  157  git checkout logical-programs
+  158  git merge master
+  159  git status
+  160  git add LogicalPrograms/CrossGame.py
+  161  git commit -m "Added to Play Cross game"
+  162  git status
+  163  git add LogicalPrograms/CrossGame.py
+  164  git commit -m "Added to Play Cross game"
+  165  git push origin logical-programs
+  166  git checkout master
+  167  git merge logical-programs
+  168  git push origin master
+  169  git checkout functional-programs
+  170  git checkout master
+  171  git checkout master
+  172  git merge master
+  173  git status
+  174  git merge master --force
+  175  git checkout master
+  176  git status
+  177  git add FunctionalPrograms/2DArray.py
+  178  git commit -m "Modified existing program with addition of function method"
+  179  git checkout master
+  180  git checkout functional-programs
+  181  git status
+  182  git add FunctionalPrograms/2DArray.py
+  183  git commit -m "Modified existing program with addition of function method"
+  184  git push origin functional-programs
+  185  git checkout master
+  186  git merge functional-programs
+  187  git merge functional-programs
+  188  status
+  189  git status
+  190  git status
+  191  git rm PythonPractice/
+  192  git rm /PythonPractice
+  193  git status
+  194  git add FunctionalPrograms/2DArray.py
+  195  git commit -m "Modified existing program with addition of function method"
+  196  git push origin master
+  197  git status
+  198  git add .
+  199  git commit -m "Modified existing program with addition of function method"
+  200  git push origin master
+  201  git checkout functional-programs
+  202  git merge master
+  203  git status
+  204  git checkout master
+  205  git status
+  206  git add .
+  207  git commit -m "Modified existing program with addition of function method"
+  208  git push origin master
+  209  git checkout logical-programs
+  210  git merge master
+  211  git checkout master
+  212  git status
+  213  git checkout -b algorithm-programs
+  214  git status
+  215  git add PyTestingPrograms/
+  216  git add PyTestingPrograms/DayOfWeek.py
+  217  git commit -m "Added to find the day in a week"
+  218  git add PyTestingPrograms/DayOfWeek.py
+  219  git commit -m "Added to find the day in a week"
+  220  git add PyTestingPrograms/DayOfWeek.py
+  221  git commit -m "Added to find the day in a week"
+  222  git add Algorithm-Programs/
+  223  git add AlgorithmPrograms/
+  224  git add AlgorithmPrograms
+  225  git commit -m "Added Algorithm Programs"
+  226  git add AlgorithmPrograms
+  227  git commit -m "Added Algorithm Programs"
+  228  git push origin algorithm-programs
+  229  git checkout master
+  230  git merge algorithm-programs
+  231  git push origin master
+  232  git checkout -b pytesting-programs
+  233  git add PyTestingPrograms
+  234  git status
+  235  git commit -m "Added Pytesting programs and its testing"
+  236  git push origin pytesting-programs
+  237  git commit --amend
+  238  git checkout -b data-structures-programs
+  239  git status
+  240  git add DataStructuresPrograms
+  241  git add /DataStructuresPrograms
+  242  git add DataStructuresPrograms/
+  243  git commit -m "Added data structure practice programs"
+  244  git push origin data-structures-programs
+  245  git checkout master
+  246  git merge data-structures-programs
+  247  git push origin master
+  248  git checkout data-structures-programs
+  249  git status
+  250  git add DataStructuresPrograms/
+  251  git commit -m "Added to perform specific operations"
+  252  git push origin master
+  253  git push origin data-structures-programs
+  254  git checkout master
+  255  git merge data-structures-programs
+  256  git push origin master
+  257  git checkout algorithm-programs
+  258  git status
+  259  git add AlgorithmPrograms/
+  260  git commit -m "Modified some method algorithm programs"
+  261  git push origin algorithm-programs
+  262  git checkout master
+  263  git merge algorithm-programs
+  264  git merge algorithm-programs
+  265  git push --force-with-lease origin master
+  266  git checkout algorithm-programs
+  267  git checkout master
+  268  git merge algorithm-programs
+  269  git checkout algorithm-programs
+  270  git checkout master
+  271  git merge algorithm-programs
+  272  git push origin master
+  273  git status
+  274  git branch
+  275  git checkout data-structures-programs
+  276  git status
+  277  git add DataStructuresPrograms/deck_of_cards.py
+  278  git commit -m "Added deck of cards program"
+  279  git push origin data-structures-programs
+  280  git checkout master
+  281  git merge data-structures-programs
+  282  git push origin master
+  283  git checkout -b advnced-python-concepts
+  284  git status
+  285  git add OopsPrograms/DataManagement_json
+  286  git commit -m "Added to perform operations on JSON file"
+  287  git push origin advnced-python-concepts
+  288  git checkout master
+  289  git merge data-structures-programsdata-structures-programs
+  290  git merge advnced-python-concepts
+  291  git push origin master
+  292  git checkout advnced-python-concepts
+  293  git add OopsPrograms/File_IO
+  294  git commit -m "Added to perform some File I/O operations on a text file"
+  295  git checkout master
+  296  git checkout advnced-python-concepts
+  297  git push origin advnced-python-concepts
+  298  git checkout master
+  299  git merge advnced-python-concepts
+  300  git push origin master
+  301  git checkout advnced-python-concepts
+  302  git add OopsPrograms/CSV
+  303  git commit -m "Added to perform some operations on csv file"
+  304  git push origin advnced-python-concepts
+  305  git checkout master
+  306  git merge advnced-python-concepts
+  307  git push origin master
+  308  git branch
+  309  git status
+  310  git add .
+  311  git commit -m "Added some more pracice programs"
+  312  git push origin master
+  313  git branch
+  314  git checkout advnced-python-concepts
+  315  git status
+  316  git add CSV
+  317  git add CSV/
+  318  git commit -m "Modified with classes and function method"
+  319  git push origin advnced-python-concepts
+  320  git add DataManagement_json/
+  321  git commit -m "Modified with classes and function method"
+  322  git push origin advnced-python-concepts
+  323  git add Filo_IO/
+  324  git add File_IO/
+  325  git commit -m "Modified with classes and function method"
+  326  git push origin advnced-python-concepts
+  327  git checkout master
+  328  git merge advnced-python-concepts
+  329  git push origin master
+  330  git status
+  331  git add .gitignore
+  332  git commit -m "Added the files to be excluded"
+  333  git push origin master
+  334  git status
+  335  git add .
+  336  git commit -m "Added some practice programs"
+  337  git push origin master
+  338  git branches
+  339  git branch
+  340  git checkout advnced-python-concepts
+  341  git add .
+  342  git reset
+  343  git add OopsPrograms/
+  344  git status
+  345  git reset
+  346  git add .
+  347  git reset
+  348  git add OopsPrograms/
+  349  git reset
+  350  git touch .gitignote
+  351  touch .gitignote
+  352  touch .gitignore
+  353  git status
+  354  git add OopsPrograms/
+  355  git commit -m "Modified with some new methods"
+  356  git push origin advnced-python-concepts
+  357  git checkout master
+  358  git merge advnced-python-concepts
+  359  git push origin master
+  360  git status
+  361  git add PythonPractice/
+  362  git reset
+  363  git status
+  364  git branch
+  365  git status
+  366  git add AlgorithmPrograms/.gitignore
+  367  git commit -m "Added files to be excluded"
+  368  git push origin algorithm-programs
+  369  git checkout master
+  370  git merge (algorithm-programs
+  371  git merge algorithm-programs
+  372  git push origin master
+  373  git status
+  374  git branch
+  375  git checkout data-structures-programs
+  376  git add DataStructuresPrograms/.gitignore
+  377  git commit -m "Added files to be excluded"
+  378  git push origin data-structures-programs
+  379  git checkout master
+  380  git merge data-structures-programs
+  381  git push origin master
+  382  git status
+  383  git branch
+  384  git checkout pytesting-programs
+  385  git add PyTestingPrograms/.gitignore
+  386  git commit -m "Added files to be excluded"
+  387  git push origin pytesting-programs
+  388  git checkout master
+  389  git merge pytesting-programs
+  390  git push origin master
+  391  git checkout advnced-python-concepts
+  392  git status
+  393  git add OopsPrograms/customer.py
+  394  git commit -m "Added a program in the context to Oops concepts"
+  395  git push origin advnced-python-concepts
+  396  git checkout master
+  397  git merge advnced-python-concepts
+  398  git push origin master
+  399  git status
+  400  git checkout basic-python-programs
+  401  git branch
+  402  git checkout basic-core-programs
+  403  git add BasicPythonPrograms/.gitignore
+  404  git commit -m "Added files to be excluded"
+  405  git push origin basic-core-programs
+  406  git checkout master
+  407  git merge basic-core-programs
+  408  git push origin master
+  409  git status
+  410  ssh
+  411  ls
+  412  cd Downloads/
+  413  ls
+  414  ls
+  415  ssh
+  416  ssh ec2-user@3.83.126.35
+  417  ssh -i  akashs_aws_ubuntu.pem ec2-user@3.83.126.35
+  418  ls -ld
+  419  ssh -i  akashs_aws_ubuntu.pem akash@3.83.126.35
+  420  ssh -i  akashs_aws_ubuntu.pem akash@3.
+  421  ls -ld
+  422  ls
+  423  ssh -i akashs-ubuntu-aws.pem akash@3.83.126.35
+  424  clear
+  425  ssh -i my-ec2-keyPair.pem ec2-user@3.88.111.126
+  426  ssh -i my-ec2-keypair.pem ubuntu@
+  427  ssh -i  my-ec2-keypair.pem ec2-user@65.0.29.18
+  428  ls
+  429  cd Downloads
+  430  ls
+  431  ssh
+  432  ssh -i my-ec2-keypair.pem ec2-user@65.0.29.18
+  433  ssh -i my-ec2-keypair.pem ec2-user@65.0.29.18
+  434  ssh -i my-ec2-keypair.pem Ubuntu@65.0.29.18
+  435  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  436  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  437  ls
+  438  cd Downloads
+  439  ls
+  440  ssh
+  441  ssh --help
+  442  ssh9help0
+  443  help ssh
+  444  info ssh
+  445  ssh help
+  446  help ls
+  447  help help
+  448  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  449  clear
+  450  cd ..
+  451  clear
+  452  cd Downloads
+  453  ssh
+  454  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  455  ls
+  456  ssh
+  457  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  458  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  459  cd Downloads
+  460  ls
+  461  cd ..
+  462  cd ..
+  463  cd Downloads
+  464  ls
+  465  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  466  ssh -i my-ec2-keypair.pem ubuntu@65.0.29.18
+  467  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  468  sudo apt-get update
+  469  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  470  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  471  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  472  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  473  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  474  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  475  history > history_backup
+  476  ls
+  477  nano history_backup
+  478  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  479  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  480  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  481  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  482  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  483  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  484  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  485  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  486  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  487  ssh -i my-ec2-keypair.pem ubuntu@15.206.100.194
+  488  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  489  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  490  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  491  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  492  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  493  ls
+  494  del AlbumArtSmall.jpg
+  495  rm AlbumArtSmall.jpg
+  496  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  497  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  498  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  499  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  500  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  501  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  502  ssh -i my-ec2-keypair.pem ubuntu@3.108.44.69
+  503   history > history_backup

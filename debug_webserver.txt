@@ -1,0 +1,170 @@
+    1  sudo apt upgrade
+    2  sudo apt-grt upgrade
+    3  sudo apt-get upgrade
+    4  sudo apt autoremove
+    5  sudo su
+    6  exit
+    7  ssh -i my-project-key.pem ubuntu@10.0.1.247
+    8  ls
+    9  chmod 400 my-project-key.pem
+   10  sudo chmod 400 my-project-key.pem
+   11  ls -l
+   12  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   13  sudo chmod 700 my-project-key.pem
+   14  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   15  ls
+   16  rm my-project-key.pem
+   17  ls
+   18  rm -r my-project-key.pem
+   19  ls
+   20  rm -r my-project-key.pem
+   21  ls
+   22  sudo su
+   23  exit
+   24  ping google.com
+   25  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   26  ls
+   27  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   28  ls -l
+   29  sudo su
+   30  exit
+   31  ls
+   32  sudo su
+   33  ls
+   34  hostnamectl set-hostname webserver
+   35  sudo su
+   36  ls
+   37  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   38  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   39  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+   40  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   41  sudo reboot
+   42  ls
+   43  ping google.com
+   44  ssh -i my-project-key.pem ubuntu@10.0.1.23
+   45  ls
+   46  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+   47  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   48  exit
+   49  ping 10.0.1.23
+   50  ping 10.0.1.247
+   51  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+   52  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   53  exit
+   54  ping 10.0.1.23
+   55  ping 10.0.1.247
+   56  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   57  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   58  sudo service nginx start
+   59  service nginx status
+   60  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   61  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   62  sudo nano /etc/nginx/sites-available/example.com
+   63  sudo nginx -t
+   64  sudo systemctl restart nginx
+   65  service nginx status
+   66  ping example.com
+   67  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   68  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   69  exit
+   70  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   71  exit
+   72  ssh -i "my-project-key.pem" ubuntu@10.0.0.169
+   73  sudo ssh -i "my-project-key.pem" ubuntu@10.0.0.169
+   74  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   75  ping 10.0.1.23
+   76  ping 10.0.1.247
+   77  clear
+   78  exit
+   79  sudo su
+   80  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   81  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   82  ls
+   83  sudo nano /etc/nginx/sites-available/example.com
+   84  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   85  exit
+   86  sudo nano /etc/nginx/sites-available/example.com
+   87  exit
+   88  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   89  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+   90  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+   91  ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   92  ssh -i my-project-key.pem ubuntu@10.0.1.23
+   93  exit
+   94  sudo ssh -i my-project-key.pem ubuntu@3.111.147.114
+   95  ls
+   96  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+   97  logout
+   98  sudo su
+   99  sudo ssh -i my-project-key.pem ubuntu@10.0.1.247
+  100  sudo ssh -i my-project-key.pem ubuntu@10.0.1.23
+  101  ls
+  102  sudo nano example.com
+  103  exit
+  104  systemctl status nginx
+  105  cd /etc/nginx/sites-enable/
+  106  cd /etc/nginx/
+  107  ls
+  108  cd sites-enabled
+  109  ls
+  110  sudo rm -f default
+  111  ls
+  112  sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com
+  113  ls
+  114  sudo systemctl restart nginx
+  115  sudo systemctl status nginx
+  116  sudo systemctl restart nginx
+  117  nginx -t
+  118  sudo nginx -t
+  119  cd /etc/nginx/sites-enable/
+  120  ls
+  121  nano example.com
+  122  sudo nano example.com
+  123  nginx -t
+  124  sudo nginx -t
+  125  sudo systemctl restart nginx
+  126  history
+
+
+
+
+    1  nano my-project-key.pem
+    2  ssh -i my-project-key.pem ubuntu@10.0.1.247
+    3  sudo chmod 400 my-project-key.pem
+    4  exit
+    5  nano my-project-key.pem
+    6  chmod 400 my-project-key.pem
+    7  ls -la
+    8  ssh -i my-project-key.pem ubuntu@10.0.1.247
+    9  sudo apt install nginx
+   10  sudo ufw app list
+   11  sudo ufw allow 'Nginx Full'
+   12  sudo ufw status
+   13  exit
+   14  ssh -i my-project-key.pem ubuntu@10.0.1.247
+   15  exit
+   16  ls
+   17  exit
+   18  apt update
+   19  apt upgrade
+   20  apt-get upgrade
+   21  apt-get update
+   22  apt sudo apt install nginx
+   23  apt install nginx
+   24  sudo ufw app list
+   25  sudo ufw allow 'Nginx Full'
+   26  sudo ufw status
+   27  systemctl status nginx
+   28  sudo ufw enable
+   29  sudo nginx -t
+   30  exit
+   31  hostnamectl set-hostname webserver
+   32  ls
+   33  cd ~
+   34  ls
+   35  exit
+   36  vi /etc/nginx/sites-enabled/default
+   37  cd /etc/nginx/sites-enabled/
+   38  ls
+   39  exit
+   40  history

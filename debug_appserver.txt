@@ -1,0 +1,198 @@
+   1  ping google.com
+    2  exit
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  sudo apt upgrade
+    6  sudo apt update
+    7  exit
+    8  sudo reboot
+    9  sudo apt autoremove
+   10  exit
+   11  curl -sL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+   12  sudo apt-get install -y nodejs
+   13  sudo apt-get update
+   14  sudo apt-get install yarn
+   15  node --version
+   16  npm --version
+   17  exit
+   18  node -v
+   19  exit
+   20  sudo apt update
+   21  sudo apt install nginx
+   22  nginx -v
+   23  sudo apt remove nginx
+   24  sudo apt autoremove
+   25  exit
+   26  ping google.com
+   27  exit
+   28  hostnamectl set-hostname appserver
+   29  sudo hostnamectl set-hostname appserver
+   30  node -v
+   31  npm -v
+   32  ls
+   33  cd /opt/
+   34  git clone https://github.com/AkashBG3010/NodeJs-API.git
+   35  sudo git clone https://github.com/AkashBG3010/NodeJs-API.git
+   36  cd NodeJs-API/
+   37  cat .env
+   38  node -v
+   39  npm -v
+   40  npm install
+   41  sudo npm install
+   42  sudo npm install -g npm@8.5.4
+   43  systemctl status node
+   44  systemctl status npm
+   45  exit
+   46  sudo reboot
+   47  ping google.com
+   48  exit
+   49  ping 10.0.1.23
+   50  ping 10.0.1.247
+   51  exit
+   52  ping 10.0.1.23
+   53  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   54  nano my-project-key.pem
+   55  chmod 400 my-project-key.pem
+   56  ls -l
+   57  sudo ssh -i "my-project-key.pem" ubuntu@10.0.1.23
+   58  ls
+   59  exit
+   60  cd /opt/
+   61  ls
+   62  cd NodeJs-API
+   63  ls
+   64  npm install
+   65  sudo npm install
+   66  sudo npm start
+   67  ls
+   68  ls -l
+   69  nano .env
+   70  chmod 700 .env
+   71  sudo chmod 700 .env
+   72  ls -l
+   73  nano .env
+   74  sudo chmod 777 .env
+   75  nano .env
+   76  sudo chmod 400 .env
+   77  sudo npm start
+   78  node server.js
+   79  sudo npm install pm2@latest -g
+   80  pm2 start server.js
+   81  pm2 startup systemd
+   82  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+   83  pm2 startup systemd
+   84  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+   85  pm2 save
+   86  sudo systemctl start pm2-ubuntu
+   87  systemctl status pm2-ubuntu.service
+   88  sudo apt remove pm2
+   89  sudo apt remove pm2*
+   90  sudo apt-get remove pm2*
+   91  exit
+   92  sudo npm start
+   93  ls
+   94  cd /opt/
+   95  ls
+   96  cd NodeJs-API
+   97  sudo npm start
+   98  exit
+   99  cd /opt/
+  100  cd NodeJs-API
+  101  sudo chmod 777 .env
+  102  nano ,env
+  103  nano .env
+  104  sudo npm start
+  105  exit
+  106  sudo lsof -i -P -n | grep LISTEN
+  107  exit
+  108  cd /opt/
+  109  ls
+  110  cd NodeJs-API
+  111  ls
+  112  rm -fr ,env
+  113  ls
+  114  sudo nano .env
+  115  exit
+  116  cd /opt/
+  117  ls
+  118  cd NodeJs-API
+  119  ls
+  120  sudo nano .env
+  121  ping 10.0.1.23
+  122  telnet 10.0.1.23 27017
+  123  exit
+  124  ls
+  125  cd /opt/
+  126  ls
+  127  cd NodeJs-API
+  128  ls
+  129  sudo npm start
+  130  netstat -tupl | grep 3000
+  131  sudo apt install net-tools
+  132  netstat -tupl | grep 3000
+  133  sudo pkill 727
+  134  netstat -tupl | grep 3000
+  135  sudo pkill-9 727
+  136  sudo pkill -9 727
+  137  netstat -tupl | grep 3000
+  138  ps | grep node
+  139  psf | grep node
+  140  ps -f | grep node
+  141  ps -elf | grep node
+  142  sudo kill -9 727
+  143  netstat -tupl | grep 3000
+  144  cd /
+  145  cd opt/
+  146  ls
+  147  sudo su
+  148  exit
+  149  telnet 10.0.1.23 27017
+  150  exit
+  151  telnet 10.0.1.23 27017
+  152  cd /opt/
+  153  ls
+  154  cd NodeJs-API
+  155  ls
+  156  npm start
+  157  exit
+  158*
+  159  sudo systemctl start pm2
+  160  sudo systemctl start pm2-ubuntu
+  161  sudo systemctl status pm2-ubuntu
+  162  ps -elf | grep 3000
+  163  ps -elf | grep node
+  164  history
+
+
+
+
+    1  killall -s KILL node
+    2  ps -elf | grep node
+    3  kill -9 1808
+    4  ps -elf | grep node
+    5  pm2 list
+    6  pm2 status
+    7  pm2 --help
+    8  pm2 stop all
+    9  pstree
+   10  systemctl status pm2
+   11  systemctl status pm2*
+   12  systemctl stop pm2
+   13  systemctl stop pm2-ubuntu
+   14  systemctl status pm2*
+   15  systemctl status pm2
+   16  systemctl status pm2*
+   17  ps -elf | grep node
+   18  ls
+   19  cd NodeJs-API
+   20  ls
+   21  npm start
+   22  nano .env
+   23  npm install
+   24  npm start
+   25  telnet -v 10.0.1.23 27017
+   26  telnet -t 10.0.1.23 27017
+   27  exit
+   28  history
+
+

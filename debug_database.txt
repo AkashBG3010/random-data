@@ -1,0 +1,97 @@
+    1  ping google.com
+    2  exit
+    3  sudo apt-get update
+    4  logout
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  sudo apt upgrade
+    8  sudo apt update
+    9  exit
+   10  reboot
+   11  sudo reboot
+   12  sudo apt autoremove
+   13  sudo apt upgrade
+   14  sudo apt autoremove
+   15  exit
+   16  sudo systemctl enable mongod
+   17  exit
+   18  curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+   19  apt-key list
+   20  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+   21  sudo apt update
+   22  sudo apt install mongodb-org
+   23  sudo systemctl start mongod.service
+   24  sudo systemctl status mongod
+   25  sudo systemctl enable mongod
+   26  mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+   27  exit
+   28  sudo apt update
+   29  sudo apt upgrade
+   30  sudo apt-get upgrade
+   31  sudo apt-get update
+   32  wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+   33  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+   34  sudo apt-get update
+   35  sudo apt-get install -y mongodb-org
+   36  sudo systemctl start mongod
+   37  sudo systemctl daemon-reload
+   38  sudo systemctl start mongod
+   39  systemctl status mongodb
+   40  sudo systemctl start mongod
+   41  systemctl status mongodb
+   42  node -v
+   43  npm -v
+   44  nginx -v
+   45  cd /opt/
+   46  ls
+   47  sudo git clone https://github.com/AkashBG3010/NodeJs-API.git
+   48  exit
+   49  sudo hostnamectl set-hostname database
+   50  sudo reboot
+   51  ping 10.0.1.247
+   52  ping 3.111.147.114
+   53  exit
+   54  ping google.com
+   55  exit
+   56  ping 10.0.1.247
+   57  ping 10.0.1.23
+   58  exit
+   59  db.runCommand({whatsmyuri : 1})
+   60  lsof
+   61  exit
+   62  sudo lsof -i | grep mongo
+   63  exit
+   64  sudo su
+   65  exit
+   66  sudo ufw status
+   67  exit
+   68  cd /etc/
+   69  ls
+   70  sudo vi mongod.conf
+   71  sudo systemctl restart mongod
+   72  sudo systemctl status mongod
+   73  netstat -elf | grep mongod
+   74  netstat -tupl | grep mongod
+   75  sudo netstat -tupl | grep mongod
+   76  cat etc/hosts
+   77  cat etc/host
+   78  sudo cat etc/hosts
+   79  sudo cat /etc/hosts
+   80  sudo cat /etc/hostname
+   81  sudo nano /etc/nginx/sites-available/default
+   82  sudo /etc/nginx/sites-available/
+   83  cd /etc/nginx/sites-available/
+   84  exit
+   85  history
+
+
+
+    1  systemctl status mongodb
+    2  mongo
+    3  systemctl status mongod
+    4  sudo lsof -i | grep mongod
+    5  netstat | grep 27017
+    6  apt install net-tools
+    7  netstat -tupl | grep 27017
+    8  exit
+    9  history

@@ -1,0 +1,39 @@
+    1  apt update
+    2  hostnamectl hostname  appserver
+    3  hostnamectl appserver
+    4  hostnamectl --help
+    5  hostnamectl set-hostname appserver
+    6  clear
+    7  apt update
+    8  git
+    9  ls
+   10  cd /opt/
+   11  ls
+   12  git clone https://github.com/BL-AniketChile/NodeJs-API
+   13  ls
+   14  cd NodeJs-API/
+   15  ls
+   16  cat env 
+   17  vi package.json 
+   18  sudo apt install nodejs
+   19  node -V
+   20  node -v
+   21  sudo apt install npm
+   22  npm -v
+   23  ls
+   24  npm install
+   25  npm start
+   26  ls
+   27  cd /opt/
+   28  ls
+   29  cd NodeJs-API/
+   30  ls
+   31  vi env 
+   32  npm start
+   33  ls
+   34  ls -lart
+   35  vi .env
+   36  npm start
+   37  nohup npm start &
+   38  netstat -tuplne | grep 3000
+   39  history >> app-installation.txt

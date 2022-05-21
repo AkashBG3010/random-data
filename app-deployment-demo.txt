@@ -1,0 +1,140 @@
+
+    1  sudo apt-get update
+    2  sudo apt-get install nodejs
+    3  sudo apt-get install npm
+    4  nodejs -v
+    5  npm -v
+    6  sudo apt install build-essential
+    7  cd ~
+    8  nano hello.js
+    9  node hello.js
+   10  sudo npm install pm2@latest -g
+   11  pm2 start hello.js
+   12  pm2 startup systemd
+   13  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u sammy --hp /home/sammy
+   14  pm2 save
+   15  sudo systemctl start pm2-sammy
+   16  pm2 startup systemd
+   17  sudo systemctl start pm2-ubuntu
+   18  pm2 startup systemd
+   19  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u sammy --hp /home/sammy
+   20  sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+   21  pm2 start hello.js
+   22  clear
+   23  pm2 startup systemd
+   24  sudo env PATH=$PATH:/usr/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+   25  pm2 save
+   26  sudo systemctl start pm2-ubuntu
+   27  systemctl status pm2-ubuntu
+   28  sudo systemctl start pm2-ubuntu
+   29  systemctl status pm2-ubuntu.service
+   30  pm2 stop hello.js
+   31  pm2 restart hello.js
+   32  pm2 list
+   33  pm2 info hello.js
+   34  pm2 info hello
+   35  pm2 monit
+   36  sudo nano /etc/nginx/sites-available/example.com
+   37  /etc/nginx/sites-available
+   38  sudo su
+   39  history
+    1  ls
+    2  sudo apt-get install nginx
+    3  sudo service nginx start
+    4  ifconfig eth0 | grep inet | awk '{ print $2 }'
+    5  update-rc.d nginx defaults
+    6  $ ps -ef | grep nginx
+    7  s -ef | grep nginx
+    8  ps -ef | grep nginx
+    9  systemctl status nginx
+   10  sudo nano /etc/nginx/sites-available/example.com
+   11  sudo nginx -t
+   12  sudo systemctl restart nginx
+   13  history
+    1  curl -fsSL https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+    2  apt-key list
+    3  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+    4  sudo apt update
+    5  sudo apt install mongodb-org
+    6  sudo systemctl start mongod.service
+    7  sudo systemctl status mongod
+    8  sudo systemctl enable mongod
+    9  mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+   10  sudo systemctl status mongod
+   11  history
+    1  apt get update
+    2  apt-get update
+    3  apt-get upgrade
+    4  apt upgrade
+    5  apt update
+    6  hostnamectl
+    7  hostnamectl set-hostname webserver
+    8  exit
+    9  apt update
+   10  cd /opt/
+   11  ls
+   12  https://github.com/AkashBG3010/NodeJs-API.git
+   13  rm -rf NodeJs-API
+   14  ls
+   15  https://github.com/AkashBG3010/NodeJs-API.git
+   16  git clone https://github.com/AkashBG3010/NodeJs-API.git
+   17  cd NodeJs-API/
+   18  cat env
+   19  cat .env
+   20  sudo apt install nodejs
+   21  sudo apt install nodejs -latest
+   22  sudo apt install npm
+   23  node -v
+   24  npm -v
+   25  npm install
+   26  npm start
+   27  npm install mongodb
+   28  mongo
+   29  apt install mongodb-clients
+   30  mongo
+   31  sudo rm /var/lib/mongodb/mongod.lock
+   32  rm /var/lib/mongodb/mongod.lock
+   33  sudo service mongod restart
+   34  sudo service mongod start
+   35  sudo systemctl unmask mongod
+   36  sudo apt-get purge mongodb-org*
+   37  sudo apt-get purge mongodb*
+   38  apt autoremove
+   39  sudo rm -r /var/log/mongodb
+   40  sudo rm -r /var/lib/mongodb
+   41  wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+   42  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+   43  sudo apt-get update
+   44  sudo apt-get install -y mongodb-org
+   45  sudo systemctl start mongod
+   46  sudo systemctl daemon-reload
+   47  sudo systemctl start mongod
+   48  mongo
+   49  systemctl status mongodb
+   50  mongo
+   51  npm install
+   52  npm start
+   53  history
+   55  sudo apt-get install nginx screen
+   56  cd /etc/nginx/sites-available/
+   57  ls
+   58  nano default
+   59  touch example.com
+   60  nano example.com
+   61  touch example.com
+   62  ls
+   63  touch 35.154.171.207
+   64  nano 35.154.171.207
+   65  sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/35.154.171.207
+   66  sudo nginx -t
+   67  sudo systemctl restart nginx
+   68  sudo systemctl status nginx
+   69  screen
+   70  exit
+   71  ls
+   72  cd ~
+   73  ls -lart
+   74  curl ifconfig.me
+   75  history
+
+http://35.154.171.207:3000/hello_world
