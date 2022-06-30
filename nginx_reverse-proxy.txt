@@ -4,4 +4,14 @@ server {
 	location / {
 		proxy_pass http://10.0.1.247:3000;
 	}
+	location / {
+    	proxy_pass    www.example.com;
+	}
+	location /sytlesheet.css {
+   		 proxy_pass    www.example.com/stylesheet.css;
+	}
+	location /page1 {
+    		proxy_pass    www.example.com/page1;
+	}
+	#this goes on and on
 }
